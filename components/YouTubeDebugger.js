@@ -20,14 +20,14 @@ class YouTubeDebugger extends React.Component {
   increaseBitrate(){
     this.setState({
       settings: Object.assign({}, this.state.settings, {bitrate: 12})
-    }, console.log(this.state))
+    })
     
   }
 
   lowerResolution(){
     this.setState({
       settings: Object.assign({}, this.state.settings, {video: {resolution: '720p'}})
-    }, console.log(this.state))
+    })
     
   }
 
